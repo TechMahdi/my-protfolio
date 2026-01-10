@@ -34,6 +34,16 @@ header{
 .color-orange {
   color: #FD6E0A;
 }
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
 
 /* main style */
 nav{
@@ -95,4 +105,26 @@ margin-bottom: 33px;
 #banner .banner-content img{
     max-width: 587px;
     vertical-align: center;
+} 
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+
 }
+ #about  .about-container{
+  max-width: 1140px;
+  width: 71%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 131px 156px;
+  background-color:#FFF8F3 ;
+ } 
+ #about .about-container .about-info{
+  display: flex;
+  justify-content: space-around;
+ } 
+ #about .about-container .info-card{
+      font-size: 20px;
+      line-height: 30px;
+      color: #757575;
+ }
